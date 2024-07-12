@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0b2d6;
+}
+
+header {
+    background-color: #333;
+    color: #f0b2d6;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Estilos para a seção de Produtos em Destaque */
+.featured-products {
+    text-align: center; /* Centraliza o conteúdo dentro da seção */
+    padding: 50px 0;
+}
+
+.featured-products h2 {
+    font-size: 2rem; /* Tamanho do título */
+    color: #333; /* Cor do texto */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.add-to-cart {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    max-height: 550px;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider img {
+    width: 1700px; 
+    height: 1040px; 
+    object-fit: contain; 
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.hero-text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Estilos para os indicadores (bolinhas) */
+.tns-nav {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.tns-nav button {
+    background: #333;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 0 3px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.tns-nav button.tns-nav-active {
+    background: #000;
+    opacity: 1;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    margin-top: 520px;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+

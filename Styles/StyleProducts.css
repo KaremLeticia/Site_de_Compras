@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0b2d6;
+}
+
+header {
+    background-color: #333;
+    color: #f0b2d6;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.cart {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    //*margin-left:px; /* Espaço à esquerda do carrinho */
+}
+
+.cart img {
+    width: 50px;
+    height: 50px;
+}
+
+#cart-count {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 14px;
+    position: absolute;
+    top: -5px; /* Ajuste para alinhar melhor */
+    right: 25%; /* Ajuste para melhor posicionamento */
+    width: 20px; /* Largura fixa para um círculo */
+    height: 20px; /* Altura fixa para um círculo */
+    text-align: center; /* Centraliza o texto dentro do círculo */
+    line-height: 20px; /* Centraliza verticalmente */
+}
+
+
+.product-list {
+    text-align: center;
+    padding: 50px 0;
+    
+}
+
+.product-list h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center; 
+}
+
+.product {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    
+    
+}
+
+.product-list .product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    display: inline-block; /* Faz com que os produtos fiquem lado a lado */
+    flex-wrap: wrap; /* Permite que os produtos quebrem para a próxima linha */
+    width: 200px;
+    margin: 20px; /* Adiciona espaçamento entre os produtos */
+    background-color: #f9f9f9; /* Adiciona uma cor de fundo aos quadros */
+
+}
+
+.product-list .product img {
+    max-width: 250%;
+    height: 250px;
+}
+
+.add-to-cart {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}

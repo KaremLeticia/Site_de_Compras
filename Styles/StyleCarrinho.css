@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0b2d6;
+}
+
+header {
+    background-color: #333;
+    color: #f0b2d6;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.cart {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    //*margin-left:px; /* Espaço à esquerda do carrinho */
+}
+
+.cart img {
+    width: 50px;
+    height: 50px;
+}
+
+#cart-count {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 14px;
+    position: absolute;
+    top: -5px; /* Ajuste para alinhar melhor */
+    right: 25%; /* Ajuste para melhor posicionamento */
+    width: 20px; /* Largura fixa para um círculo */
+    height: 20px; /* Altura fixa para um círculo */
+    text-align: center; /* Centraliza o texto dentro do círculo */
+    line-height: 20px; /* Centraliza verticalmente */
+}
+
+
+.cart-items {
+    padding: 50px 0px;
+    text-align: center;
+    
+}
+
+.cart-items h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.cart-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    display: inline-block; /* Faz com que os produtos fiquem lado a lado */
+    flex-wrap: wrap; /* Permite que os produtos quebrem para a próxima linha */
+    width: 200px;
+    margin: 20px; /* Adiciona espaçamento entre os produtos */
+    background-color: #f9f9f9; /
+}
+
+.cart-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cart-item-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.cart-item-info h3 {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.cart-item-info p {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+.remove-item {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.remove-item:hover {
+    background-color: darkred;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-links img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    margin-top: 850px;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}

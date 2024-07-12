@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haute Glamour</title>
+    <link rel="stylesheet" href="Styles/StyleHome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+</head>
+<body>
+    <header>
+        <h1>Haute Glamour</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Produtos</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="slider">
+                <div><img src="Imagens/img1.jpg" alt="Imagem do Carrossel" ></div>
+                <div><img src="Imagens/img2.png" alt="Imagem do Carrossel" ></div>
+                <div><img src="Imagens/img3.png" alt="Imagem do Carrossel"></div>
+            </div>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://facebook.com/sualojaderoupas" target="_blank" rel="noopener noreferrer">
+                <img src="Imagens/icones/icons8-facebook-novo-250.png" alt="Facebook">
+            </a>
+            <a href="https://instagram.com/sualojaderoupas" target="_blank" rel="noopener noreferrer">
+                <img src="Imagens/icones/icons8-instagram-ios-17-filled-120.png" alt="Instagram">
+            </a>
+            <a href="https://twitter.com/sualojaderoupas" target="_blank" rel="noopener noreferrer">
+                <img src="Imagens/icones/icons8-twitter-ios-17-filled-120.png" alt="Twitter">
+            </a>
+        </div>
+        <p>&copy; 2024 Haute Glamour. Todos os direitos reservados.</p>
+    </footer>
+
+    </main>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.js"></script>
+    <script src="scripts/main.js"></script>
+    <script>
+        const slider = tns({
+            container: '.slider',
+            items: 1,
+            slideBy: 'page',
+            autoplay: true,
+            controls: false, // Ativa setas de navegação
+            nav: true, // Ativa bolinhas de navegação
+            autoplayButtonOutput: false,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            controlsText: ["◄", "►"], // Textos das setas
+        });
+    </script>
+</body>
+</html>
