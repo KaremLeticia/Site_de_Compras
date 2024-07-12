@@ -27,16 +27,16 @@ header nav ul li a {
     text-decoration: none;
 }
 
-/* Estilos para a seção de Produtos em Destaque */
+
 .featured-products {
-    text-align: center; /* Centraliza o conteúdo dentro da seção */
+    text-align: center; 
     padding: 50px 0;
 }
 
 .featured-products h2 {
-    font-size: 2rem; /* Tamanho do título */
-    color: #333; /* Cor do texto */
-    margin-bottom: 20px; /* Espaçamento inferior */
+    font-size: 2rem; 
+    color: #333; 
+    margin-bottom: 20px; 
 }
 
 
@@ -108,7 +108,7 @@ header nav ul li a {
     margin-bottom: 30px;
 }
 
-/* Estilos para os indicadores (bolinhas) */
+
 .tns-nav {
     text-align: center;
     padding-top: 25px;

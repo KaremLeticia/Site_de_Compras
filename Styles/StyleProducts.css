@@ -33,7 +33,7 @@ header nav ul li a {
     top: 20px;
     display: flex;
     align-items: center;
-    //*margin-left:px; /* Espaço à esquerda do carrinho */
+
 }
 
 .cart img {
@@ -48,12 +48,12 @@ header nav ul li a {
     padding: 5px;
     font-size: 14px;
     position: absolute;
-    top: -5px; /* Ajuste para alinhar melhor */
-    right: 25%; /* Ajuste para melhor posicionamento */
-    width: 20px; /* Largura fixa para um círculo */
-    height: 20px; /* Altura fixa para um círculo */
-    text-align: center; /* Centraliza o texto dentro do círculo */
-    line-height: 20px; /* Centraliza verticalmente */
+    top: -5px; 
+    right: 25%; 
+    width: 20px; 
+    height: 20px; 
+    text-align: center; 
+    line-height: 20px; 
 }
 
 
@@ -84,11 +84,11 @@ header nav ul li a {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: center;
-    display: inline-block; /* Faz com que os produtos fiquem lado a lado */
-    flex-wrap: wrap; /* Permite que os produtos quebrem para a próxima linha */
+    display: inline-block; 
+    flex-wrap: wrap; 
     width: 200px;
-    margin: 20px; /* Adiciona espaçamento entre os produtos */
-    background-color: #f9f9f9; /* Adiciona uma cor de fundo aos quadros */
+    margin: 20px; 
+    background-color: #f9f9f9; 
 
 }
 

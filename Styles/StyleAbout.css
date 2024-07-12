@@ -39,16 +39,15 @@ header nav ul li a {
 }
 
 .about-image {
-    width: 900px; /* Ajuste conforme necessário */
+    width: 900px;
     height: auto;
     margin-right: 20px;
     margin-left: 90px
-    /* Espaço entre a imagem e o texto */
 }
 
 .about-text {
-    max-width: 1100px; /* Limita a largura do texto */
-    text-align: left; /* Alinha o texto à esquerda */
+    max-width: 1100px; 
+    text-align: left;
     text-align: justify;
     font-size: 20px;
 }
